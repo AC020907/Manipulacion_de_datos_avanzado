@@ -59,3 +59,23 @@ proyecto-instacart/
     ├── order_products.csv
     ├── aisles.csv
     └── departments.csv
+🚀 Cómo Ejecutar el Proyecto
+Clonar el repositorio
+bash
+git clone [url-del-repositorio]
+cd proyecto-instacart
+Instalar dependencias
+bash
+pip install pandas numpy matplotlib jupyter
+Ejecutar el notebook
+bash
+jupyter notebook notebook.ipynb
+📋 Metodología
+### Paso 1: Descripción de Datos
+- Carga y exploración inicial de datasets
+- Verificación de tipos de datos
+- Identificación de columnas clave
+
+### Paso 2: Preprocesamiento
+- Duplicados: Eliminación de 15 filas duplicadas en orders
+- Valores ausentes: Tratamiento de 1,258 nombres de productos, 28,817 días desde pedido anterior, y
